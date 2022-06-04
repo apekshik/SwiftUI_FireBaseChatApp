@@ -14,6 +14,7 @@
 		89774165284B967300DB02B2 /* SwiftUI_FireBaseChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89774164284B967300DB02B2 /* SwiftUI_FireBaseChatAppTests.swift */; };
 		8977416F284B967300DB02B2 /* SwiftUI_FireBaseChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8977416E284B967300DB02B2 /* SwiftUI_FireBaseChatAppUITests.swift */; };
 		89774171284B967300DB02B2 /* SwiftUI_FireBaseChatAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89774170284B967300DB02B2 /* SwiftUI_FireBaseChatAppUITestsLaunchTests.swift */; };
+		8977417F284B977E00DB02B2 /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8977417E284B977E00DB02B2 /* TitleRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		8977416A284B967300DB02B2 /* SwiftUI_FireBaseChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_FireBaseChatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8977416E284B967300DB02B2 /* SwiftUI_FireBaseChatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_FireBaseChatAppUITests.swift; sourceTree = "<group>"; };
 		89774170284B967300DB02B2 /* SwiftUI_FireBaseChatAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_FireBaseChatAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8977417E284B977E00DB02B2 /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				89774153284B967000DB02B2 /* SwiftUI_FireBaseChatAppApp.swift */,
 				89774155284B967000DB02B2 /* ContentView.swift */,
+				8977417D284B976100DB02B2 /* Components */,
 				89774157284B967300DB02B2 /* Assets.xcassets */,
 				89774159284B967300DB02B2 /* Preview Content */,
 			);
@@ -125,6 +128,14 @@
 				89774170284B967300DB02B2 /* SwiftUI_FireBaseChatAppUITestsLaunchTests.swift */,
 			);
 			path = SwiftUI_FireBaseChatAppUITests;
+			sourceTree = "<group>";
+		};
+		8977417D284B976100DB02B2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8977417E284B977E00DB02B2 /* TitleRow.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			files = (
 				89774156284B967000DB02B2 /* ContentView.swift in Sources */,
 				89774154284B967000DB02B2 /* SwiftUI_FireBaseChatAppApp.swift in Sources */,
+				8977417F284B977E00DB02B2 /* TitleRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
