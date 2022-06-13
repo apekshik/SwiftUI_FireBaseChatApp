@@ -6,11 +6,19 @@
 //
 
 import SwiftUI
+import Firebase
+
 
 struct ContentView: View {
+    @ObservedObject var model = ViewModel()
+    
     var body: some View {
         Text("Hello, world!")
             .padding()
+    }
+    
+    init() {
+        model.getData()
     }
 }
 
